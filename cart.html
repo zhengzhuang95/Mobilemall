@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8"/>
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/mygoods.css" />
+	</head>
+
+	<body>
+		<div class="m-t">
+			<!-- 商城头部开始 -->
+			<div class="header-top">
+				<div class="menu am-cf">
+					<a href="javascript:;" class="am-fl sprite menu-l" id="menu"></a>
+					<h2>红柠檬商城</h2>
+					<div class="am-fr" id="editor">
+						<a href="javascript:;">编辑</a>
+					</div>
+				</div>
+				<div class="classify classifl-o am-g">
+					<a href="index.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-s"></i>
+							<p>首页</p>
+						</div>
+					</a>
+					<a href="topic.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-z"></i>
+							<p>专题</p>
+						</div>
+					</a>
+					<a href="list.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-f"></i>
+							<p>分类</p>
+						</div>
+					</a>
+					<a href="user.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-g"></i>
+							<p>个人</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 商城头部结束 -->
+			<!-- 我的购物车 -->
+			<div class="cart">
+				<div class="cart-t">
+					<ul class="am-cf">
+						<li>30天无忧退货</li>
+						<li>48小时快速退款</li>
+						<li>满88元满邮费</li>
+					</ul>
+				</div>
+				<div class="cart-b" id="cart">
+					<ul>
+						<li>
+							<dl class="cart-h">
+								<dt class="cart-t-w">1</dt>
+								<dd class="am-cf cart-hw">
+									<div class="img-t">
+										<a href="detail.html"><img src="img/detail-5.png" /></a>
+									</div>
+									<div class="name am-fl">
+										<p class="name-t-l">
+											<span>永生花</span>
+											<span class="am-fr">
+												<span>x</span>
+											<span class="number">1</span>
+											</span>
+										</p>
+										<p class="name-t-r">
+											<a href="detail.html">
+												<span>
+													<span>已选择：</span>
+												<span>怦然心动 永生花</span>
+												</span>
+												<i class="am-icon-angle-right"></i>
+											</a>
+										</p>
+										<p class="xh">
+											<span>
+												<span>永生花:</span>
+											<span>粉色</span>
+											</span>
+										</p>
+										<p class="dj am-fl">
+											<strong>
+                                        <span>¥</span>
+                                        <span class="price">439.00</span>
+                                    </strong>
+										</p>
+										<div class="sul-t am-fr">
+											<ul class="sul am-cf">
+												<li class="sul-jn">-</li>
+												<li class="sul-s"><input type="text" name="" id="" value="1" readonly="readonly" /></li>
+												<li class="sul-ja">+</li>
+											</ul>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="cart-h">
+								<dt class="cart-t-w">1</dt>
+								<dd class="am-cf cart-hw">
+									<div class="img-t">
+										<a href="detail.html"><img src="img/cart-2.png" /></a>
+									</div>
+									<div class="name am-fl">
+										<p class="name-t-l">
+											<span>牛津纺英式经典衬衫</span>
+											<span class="am-fr">
+                                        <span>x</span>
+											<span class="number">1</span>
+											</span>
+										</p>
+										<p class="name-t-r">
+											<a href="detail.html">
+												<span>
+													<span>已选择：</span>
+												<span>静怡海蓝</span>
+												</span>
+												<i class="am-icon-angle-right"></i>
+											</a>
+										</p>
+										<p class="xh">
+											<span>
+												<span>静怡海蓝</span>
+											</span>
+										</p>
+										<p class="dj am-fl">
+											<strong>
+                                        <span>¥</span>
+                                        <span class="price">109.00</span>
+                                    </strong>
+										</p>
+										<div class="sul-t am-fr">
+											<ul class="sul am-cf">
+												<li class="sul-jn">-</li>
+												<li class="sul-s"><input type="text" name="" id="" value="1" readonly="readonly" /></li>
+												<li class="sul-ja">+</li>
+											</ul>
+										</div>
+									</div>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+				<!-- 下单购买 -->
+				<div class="buy" id="buy">
+					<div class="buy-t am-cf">
+						<div class="buy-l am-fl">
+							<ul class="am-fl">
+								<li class="buy-l-w" id="buy-l-w">1</li>
+								<li>已选(<span>0</span>)</li>
+							</ul>
+						</div>
+						<div class="buy-r buy-x am-fr">
+							<a href="mylist.html" class="am-fr">下单</a>
+							<strong class="buy-o">
+		                        <span>¥</span>
+		                        <span>0.00</span>
+		                    </strong>
+						</div>
+						<div class="buy-r buy-s am-fr">
+							<a href="javascript:;" class="am-fr" id="buy-del">删除</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8">
+		</script>
+		<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/mygoods.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

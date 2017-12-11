@@ -1,0 +1,293 @@
+body,
+html {
+	background: #fff;
+	position: relative;
+}
+
+
+/* 登录页css */
+
+.login {
+	margin-top: 4.25rem!important;
+}
+
+.login-t {
+	padding: 4rem 2rem 0;
+}
+
+.login-t .account {
+	margin-top: 1rem;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.login-t .account input {
+	border: 0;
+	width: 100%;
+	height: 4rem;
+	padding-left: 1rem;
+	outline: none;
+	font-size: 1.6rem;
+}
+
+.login-t .entry input {
+	margin-top: 4rem;
+	background: #B4282D;
+	color: #fff;
+	border: 0;
+	border-radius: 0.4rem;
+}
+
+.login-t .register {
+	margin-top: 1rem;
+	border: 0;
+}
+
+.login-t .register a {
+	margin-top: 1rem;
+	border: 0;
+	color: 7F7F7F;
+}
+
+.login-b {
+	position: absolute;
+	left: 0;
+	bottom: -18rem;
+	width: 100%;
+	text-align: center;
+}
+
+.login-b .am-u-sm-6 {
+	width: 100%;
+}
+
+.login-b .qq,
+.login-b .weibo {
+	width: 50%;
+	float: left;
+}
+
+.login-b .qq {
+	text-align: right;
+	padding-right: 3rem;
+	border-right: 1px solid #9C9C9C;
+}
+
+.login-b .weibo {
+	text-align: left;
+	padding-left: 3rem;
+}
+
+
+/* 商品列表页 */
+
+.list {
+	margin-top: 4.25rem!important;
+}
+
+.list-t {
+	z-index: 10;
+}
+
+.list-t .am-slider {
+	margin: 0;
+}
+
+.list-t .am-slider .am-slides {
+	margin-left: 1rem;
+}
+
+.list-t .am-slider li {
+	width: 60px!important;
+}
+
+.list-t .am-slider li a {
+	width: 60px!important;
+	height: 50px!important;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+}
+
+.am-control-paging,
+.am-direction-nav {
+	display: none;
+}
+
+.list-t .am-slider li.bg {
+	border-bottom: 2px solid #ab2b2b;
+}
+
+.list-b {
+	/*margin-top: 8.5rem;*/
+}
+
+.list-b .list-img {
+	position: relative;
+	width: 100%;
+	height: 11.5rem;
+}
+
+.list-b .list-img img {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	left: 50%;
+	-moz-transform: translate3d(-50%, 0, 0);
+	-ms-transform: translate3d(-50%, 0, 0);
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+}
+
+.list-b .list-img .img-b {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.2);
+	display: table;
+}
+
+.list-b .list-img .img-b-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.list-b .list-img .img-b-text h2 {
+	margin: 0;
+	color: #fff;
+	font-size: 1.7rem;
+}
+
+.list-b .list-img .img-b-xian {
+	margin: 0 auto;
+	width: 7rem;
+	height: 1px;
+	background: #DEDEDE;
+	text-indent: 9999px;
+}
+
+
+/* 被枕 */
+
+.list-b .goods {
+	background: #F4F4F4;
+}
+
+.list-b .goods .goods-t {
+	text-align: center;
+}
+
+.list-b .goods-t {
+	padding: 1.3rem 0;
+	background: #F4F4F4;
+}
+
+.list-b .goods-t h2 {
+	font-size: 1.6rem;
+}
+
+.list-b .goods-t p {
+	font-size: 1.2rem;
+	color: #999999;
+	letter-spacing: 1px;
+}
+
+.list-b .goods-b ul {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.list-b .goods-b li {
+	float: left;
+	width: 50%;
+	border-top: 1px solid #EFEFEF;
+	border-right: 1px solid #EFEFEF;
+	background: #fff;
+}
+
+.list-b .goods-b li img {
+	width: 100%;
+}
+
+.list-b .goods-b li dt {
+	padding: 0.5rem 1.4rem 0;
+}
+
+.list-b .goods-b li dd {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.list-b .goods-b li dd.name {
+	color: #A5A5A5;
+	padding: 0 1rem;
+	font-size: 1.4rem;
+}
+
+.list-b .goods-b dd span {
+	color: #b4282d;
+	font-size: 1.4rem;
+}
+
+
+/* 专题页 */
+
+.topic {
+	padding-top: 4.25rem;
+	background: #F4F4F4;
+}
+
+.topic ul li {
+	text-align: center;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+	background: #fff;
+}
+.topic ul li dt {
+	height: 20rem;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	padding-bottom: 1rem;
+}
+
+.topic ul li img {
+	    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.topic ul li .topic-n {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	color: #333;
+}
+.topic ul li .topic-tit {
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	color: #999;
+}
+.topic ul li .topic-money {
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	color: #b4282d;
+}
+/* 详情页 */
+.topic-1{
+	margin-top: 4.25rem;
+}
+.tip .tip-t img{
+	width: 100%;
+	display: block;
+}

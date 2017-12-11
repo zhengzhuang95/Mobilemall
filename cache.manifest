@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# 2017-02-22 v1.0.0
+img/banner1.jpg
+img/banner2.jpg
+img/banner3.jpg
+img/banner4.jpg
+css/app.css
+css/public.css
+js/app.js
+js/public.js
+
+NETWORK:
+img/banner5.jpg
+*

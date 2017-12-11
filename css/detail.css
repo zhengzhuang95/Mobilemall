@@ -1,0 +1,422 @@
+/* 图片详情 */
+
+.detail-t {
+	/*display: none;*/
+}
+
+.mat {
+	margin-top: 4.25rem;
+	margin-bottom: 0;
+}
+
+.am-control-paging {
+	position: absolute!important;
+	bottom: 1rem!important;
+}
+
+.am-direction-nav {
+	display: none;
+}
+
+
+/* 商品名称 */
+
+.public-name {
+	background: #fff;
+}
+
+.public-name .name {
+	padding: 2rem 1rem 1rem;
+	text-align: center;
+}
+
+.public-name .name .name-t h2 {
+	margin: 0;
+	line-height: 1;
+	font-size: 1.9rem;
+	color: #333;
+	padding: 0.2rem 0;
+}
+
+.public-name .name .compute {
+	font-size: 1.6rem;
+	color: #999;
+}
+
+.public-name .name .price {
+	font-size: 1.9rem;
+	color: #b4282d;
+}
+
+.public-name .name .name-t a {
+	border: 1px solid #F8B362;
+	display: block;
+	width: 50px;
+	border-radius: 1rem;
+	margin: 0 auto;
+	font-size: 1rem;
+	margin-top: 1rem;
+	color: #F8B362;
+}
+
+.public-name .name .name-b {
+	border-top: 1px solid #D9D9D9;
+	margin-top: 1rem;
+	height: 4rem;
+	display: block;
+	line-height: 3;
+}
+
+.public-name .name .name-b a {
+	display: block;
+	height: 4rem;
+	line-height: 3;
+	padding-right: 1.5rem;
+}
+
+.public-name .name-b .name-b-l-t {
+	width: 90%;
+	text-align: left;
+}
+
+.public-name .name-b .name-b-l-t p {
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.public-name .name-b .name-v {
+	color: #f8b362;
+	font-size: 1.2rem;
+	border: 1px solid #f8b362;
+	padding: 0.3rem;
+	margin-right: 1rem;
+}
+
+.public-name .th {
+	height: 7rem!important;
+}
+
+.public-name .name-b .xy-t {
+	width: 20%;
+}
+
+.public-name .name-b .xy {
+	width: 80%;
+	margin: 0.5rem 0 0;
+	padding: 0;
+}
+
+.public-name .name-b .xy li {
+	float: left;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+
+.public-name .name-b .xy li span {
+	color: #b4282d;
+}
+
+.public-name .name-b .pj {
+	width: 70%;
+}
+
+.public-name .name-b .pj-t {
+	width: 50%;
+}
+
+.public-name .name-b .pj-t img {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 1.25rem;
+}
+
+.public-name .name-b .pj-t .na {
+	margin-left: 1rem;
+}
+
+.public-name .name-b .time {
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	color: #999999;
+	line-height: 4.5rem;
+}
+
+.public-name .to {
+	height: auto!important;
+	padding: 1rem 0;
+}
+
+.public-name .to .pj-b {
+	font-size: 1.4rem;
+	text-align: left;
+}
+
+.public-name .to .pj-d {
+	font-size: 1.1rem;
+	color: #999999;
+	text-align: left;
+	margin-top: -1rem;
+}
+
+
+/* 商品参数 */
+
+.parameter {
+	margin-top: 1rem;
+	background: #fff;
+}
+
+.parameter-t {
+	padding: 2rem 1rem 1rem;
+}
+
+.parameter-t h2 {
+	font-size: 1.4rem;
+	margin-bottom: 0.5rem;
+}
+
+.parameter-t dl {
+	height: 3rem;
+	background: #F7F7F7;
+	font-size: 1.3rem;
+	line-height: 3rem;
+	color: #999999;
+	margin-bottom: 0.5rem;
+}
+
+.parameter-t dl dt {
+	padding-right: 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.parameter-t dl dd {
+	margin: 0;
+	color: #333333;
+}
+
+
+/* 产品详情页 */
+
+.particulars {
+	padding-bottom: 6rem;
+	background: #fff;
+}
+
+.particulars .particulars-t p img {
+	width: 100%;
+}
+
+.particulars-b {
+	margin-top: 2rem;
+	background: #fff;
+}
+
+.particulars-b .problem-t {
+	text-align: center;
+	padding: 2rem 0;
+	background: #fff;
+	position: relative;
+}
+
+.particulars-b .problem-t span {
+	background: #fff;
+	display: inline-block;
+	z-index: 1;
+	position: relative;
+	padding: 0 1rem;
+}
+
+.particulars-b .problem-t-b {
+	background: #fff;
+	display: inline-block;
+	background-color: #ccc;
+	border-bottom: 1px solid #ccc;
+	bottom: 0;
+	height: 1px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 15rem;
+	z-index: 0;
+}
+
+.particulars-b .problem-b {
+	padding: 0 1rem;
+}
+
+.particulars-b .problem-b dl {
+	padding-left: 1.5rem;
+	position: relative;
+}
+
+.particulars-b .problem-b dt {
+	font-size: 1.4rem;
+}
+
+.particulars-b .problem-b dd {
+	font-size: 1.2rem;
+	color: #787878;
+}
+
+.particulars-b .problem-b .dan {
+	color: #b4282d;
+	font-size: 2rem;
+	left: -0.6rem;
+	margin: 0;
+	position: absolute;
+	top: -0.5rem;
+}
+
+
+/* 底部购买 */
+
+.bottom {
+	height: 5rem;
+	line-height: 5rem;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #C7C7C7;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.bottom .bg {
+	background: url(../img/chat.png) no-repeat;
+	background-size: 5rem 5rem;
+	text-indent: 9999px;
+}
+
+.bottom .bog {
+	background: url(../img/chat-2.png) no-repeat;
+	background-size: 5rem 5rem;
+	text-indent: 9999px;
+	display: none;
+}
+
+.bottom img {
+	height: 4rem;
+}
+
+.bottom .am-g div {
+	border-right: 1px solid #C7C7C7;
+}
+
+.bottom .am-g .red {
+	background: #B4282D;
+	color: #fff;
+}
+
+.bottom .am-g .am-u-sm-2 {
+	padding: 0;
+}
+
+
+/* 购买型号选择 */
+
+.model {
+	background: #fff;
+	margin-bottom: 0;
+	margin-top: 4.25rem;
+	height: 100%;
+	display: none;
+}
+
+.model .model-b {
+	padding: 2rem 2rem 3rem;
+	height: 100%;
+}
+
+.model .model-b .model-t {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.model .model-t .model-img {
+	width: 35%;
+}
+
+.model .model-img img {
+	width: 100%;
+}
+
+.model .model-t .model-text {
+	line-height: 3rem;
+	padding: 1rem 0 1rem 1rem;
+	width: 65%;
+}
+
+.model .model-c .model-c-b ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 1rem;
+}
+
+.model .model-c .model-c-b ul li {
+	float: left;
+	margin: 0 1rem 1rem 0;
+	border: 1px solid #333333;
+	border-radius: 0.4rem;
+	padding: 0.3rem 1.5rem;
+}
+
+.model .model-c .model-c-b ul li {
+	float: left;
+	margin-right: 1rem;
+}
+
+.model .model-d .model-d-b ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 1rem;
+	border: 1px solid #333333;
+	border-radius: 0.4rem;
+	display: inline-block;
+	width: auto;
+}
+
+.model .model-d-b ul li {
+	float: left;
+	border-right: 1px solid #333333;
+	margin: 0 auto;
+}
+
+.model .model-d-b ul li:last-child {
+	border-right: none;
+}
+
+.model .model-d-b ul li {
+	float: left;
+}
+
+.model .model-d-b ul li a {
+	display: block;
+	padding: 0.3rem 1.5rem;
+}
+
+.model .model-d-b li.sr {
+	width: 5rem;
+}
+
+.model .model-d-b ul li input {
+	width: 100%;
+	height: 3rem;
+	border: 0;
+	text-align: center;
+}
+
+.xz {
+	border: 1px solid #B4282D!important;
+	color: #B4282D;
+}
+.am-slider-default .am-control-nav li a.am-active{
+	background-color: #fff;
+}

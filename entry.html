@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录页</title>
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/loginlist.css" />
+	</head>
+
+	<body>
+		<div class="m-t">
+			<!-- 商城头部开始 -->
+			<div class="header-top">
+				<div class="menu am-cf">
+					<a href="javascript:;" class="am-fl sprite menu-l" id="menu"></a>
+					<h2>红柠檬商城</h2>
+					<div class="am-fr">
+						<a href="search.html">
+							<i class="sprite menu-r"></i>
+						</a>
+						<a href="#">
+							<i class="sprite menu-rl"></i>
+						</a>
+					</div>
+				</div>
+				<div class="classify classifl-o am-g">
+					<a href="index.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-s"></i>
+							<p>首页</p>
+						</div>
+					</a>
+					<a href="topic.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-z"></i>
+							<p>专题</p>
+						</div>
+					</a>
+					<a href="list.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-f"></i>
+							<p>分类</p>
+						</div>
+					</a>
+					<a href="user.html">
+						<div class="am-u-sm-3">
+							<i class="sprite menu-g"></i>
+							<p>个人</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- 商城头部结束 -->
+			<!-- 登录窗口 -->
+			<div class="login">
+				<div class="login-t">
+					<form action="" method="post" class="am-form" data-am-validator id="your-form">
+						<fieldset>
+							<div class="am-form-group account">
+								<input type="text" name="" id="doc-vld-name-2" minlength="3" value="" placeholder="请输入登录用户名（至少 3 个字符）" required/>
+							</div>
+							<div class="am-form-group account">
+								<input type="text" name="" id="" value="" placeholder="请输入登录邮箱" required/>
+							</div>
+							<div class="am-form-group account">
+								<input type="password" name="" id="doc-vld-pwd-1" value="" placeholder="请输入密码" pattern="^\d{6}$" required/>
+							</div>
+							<div class="am-form-group account">
+								<input type="password" name="" id="doc-vld-pwd-2" value="" placeholder="请确认密码" data-equal-to="#doc-vld-pwd-1" required/>
+							</div>
+							<div class="am-form-group account entry">
+								<input type="submit" name="" id="" value="注册" placeholder="密码" required/>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
